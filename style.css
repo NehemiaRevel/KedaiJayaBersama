@@ -1,0 +1,395 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+
+.navWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+    font-size: 24px;
+    text-decoration: none;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+.logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    padding-left: 8%;
+    font-family: serif;
+    size-adjust: contain;
+}
+
+.navWrapper > .logo img {
+    width: auto;
+    height: 300%;
+    filter: invert();
+}
+
+.navigation {
+    color: black;
+    width: 100%;
+    font-size: 75%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.navigation li {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+.navigation li:hover {
+    transition-duration: 300ms;
+    background-color: rgb(179, 12, 45);
+}
+
+.navigation li a{
+    color: rgb(250, 202, 114);
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+}
+
+.navigation li a:hover {
+    transition-duration: 200ms;
+    color: white;
+}
+
+#home{
+    height: 100vh;
+}
+
+.slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.slider img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(70%);
+    display: none;
+}
+
+img.displaySlide {
+    display: block;
+}
+
+#tentang{
+    background-color: wheat;
+    height: 200vh;
+    padding-top: 10vh;
+}
+
+.pageTitle {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.produkTerlaris {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.produkTerlaris > .menuContainer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+
+.produkTerlaris > .menuContainer img {
+    max-height: 450px;
+    max-width: 300px;
+}
+
+.produkTerlaris > .menuContainer > .menuTitle{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.produkTerlaris > .menuContainer > .harga{
+    font-size: 1.5rem;
+    margin-top: -5px;
+}
+
+#Tentang2{
+    background-color: wheat;
+    padding-top: 5vh;
+}
+
+.tentangRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    margin-top: -4vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    text-align: justify;
+}
+
+.tentangRow img{
+    max-width: 50vh;
+    margin-right: 5vh;
+}
+
+.tentangRow2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+    margin-left: 22vh;
+    margin-right: 21vh;
+}
+
+.tentangRow2 img{
+    max-width: 50vh;
+    margin-left: 5vh;
+}
+
+#produk{
+    background-color: wheat;
+    height: 100vh;
+    padding-top: 10vh;
+}
+
+.daftarProduk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: -3vh;
+}
+
+.daftarProduk > .menuContainer img {
+    max-height: 300px;
+    max-width: 200px;
+}
+
+.daftarProduk > .menuContainer > .menuTitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.daftarProduk > .menuContainer > .harga{
+    font-size: 1rem;
+    margin-top: -5px;
+}
+
+.daftarProduk > .menuContainer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 1%;
+    padding-bottom: 3%;
+}
+
+.row1{
+    margin-top: 2%;
+}
+
+#kontak{
+    background-color: wheat;
+    height: 170vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map{
+    margin-top: 20vh;
+    margin-left: 20vh;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+}
+
+.mapTextContainer{
+    margin-right: 20vh;
+}
+
+.mapTitle{
+    font-size: 3rem;
+    font-weight: bold;   
+    margin-left: 5vh;
+}
+
+.mapDesc{
+    text-align: justify;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.kontakTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.kontakContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.kontakDesc{
+    text-align: justify;
+    margin-left: 30vh;
+    margin-right: 10vh;
+}
+
+.kontakForm{
+    margin-right: 20vh;
+}
+
+.form-container {
+  background-color: #d74b4b;
+  padding: 5vh;
+  border-radius: 8px;
+  width: 65vh;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background-color: #f3ca97;
+  color: crimson;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e9ad71;
+  color: #fff;
+}
+
+#footer {
+    background-color: crimson;
+    color: white;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-top: 7vh;
+}
+
+.column1{
+    margin-right: 75vh;
+}
+
+.column2{
+    margin-right: 10vh;
+}
+
+.wa{
+    display: flex;
+    align-items: center;
+}
+
+.ig{
+    display: flex;
+    align-items: center;
+}
+
+.column3 i{
+    margin-right: 5px;
+}
+
+.column3 p{
+    font-size: small;
+}
+
+.footerTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: wheat;
+}
+
+.footerlogo{
+    max-width: 200px;
+    max-height: auto;
+}
+
+.footerTitleBot{
+    margin-bottom: 2vh;
+}
