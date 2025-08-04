@@ -117,6 +117,12 @@ img.displaySlide {
     padding-top: 10vh;
 }
 
+#tentangAlt{
+    background-color: wheat;
+    height: 100vh;
+    padding-top: 10vh;
+}
+
 .pageTitle {
     text-align: center;
     font-size: 3rem;
@@ -196,6 +202,12 @@ img.displaySlide {
     padding-top: 10vh;
 }
 
+#produkAlt{
+    background-color: wheat;
+    height: 175vh;
+    padding-top: 10vh;
+}
+
 .daftarProduk {
     display: flex;
     flex-direction: row;
@@ -243,8 +255,8 @@ img.displaySlide {
 }
 
 #alternateImg{
-    height: 450px;
-    width: auto;
+    max-height: 450px;
+    max-width: 300px;
 }
 
 #kontak{

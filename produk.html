@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div class="navWrapper">
+            <div class="logo">
+                <!-- <div class="brand">Kedai Jaya Bersama</div> -->
+                 <img src="Assets/logo-kedai.png" alt="Logo" class="brandImg" href="index.html">
+            </div>
+            <ul class="navigation">
+                <li ><a href="index.html">Home</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="home">
+            <!-- <h1>HOME</h1> -->
+            <div class="slider">
+                <div class="slides">
+                    <img src="Assets/Frame-1-b.png" alt="img-1" class="slide">
+                    <img src="Assets/Frame-3.png" alt="img-2" class="slide">
+                    <img src="Assets/Frame-4.png" alt="img-3" class="slide">
+                    <img src="Assets/Frame-5.png" alt="img-4" class="slide">
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094</button>
+                <button class="next" onclick="nextSlide()">&#10095</button>
+            </div>
+        </div >
+    </div>
+
+    <div id="produkAlt">
+            <div class="pageTitle">Produk</div>
+
+            <div class="row1">
+            <div class="daftarProduk">
+                <div class="menuContainer">
+                    <img src="Assets/TehSusuJaya.jpg" alt="TehSusu">
+                    <!-- <img src="Assets/Frame-2.png" alt="btn" class="homeBtn"> -->
+                    <p class="menuTitle">Teh Susu Jaya</p>
+                    <p class="harga">Rp 13.000</p>
+                </div>
+                <div class="menuContainer">
+                    <img src="Assets/Matcha.jpg" alt="Matcha">
+                    <p class="menuTitle">Matcha</p>
+                    <p class="harga">Rp 20.000</p>
+                </div>
+                <div class="menuContainer">
+                    <img src="Assets/TehManis.jpg" alt="TehSusuJaya">
+                    <p class="menuTitle">Teh Manis</p>
+                    <p class="harga">Rp 8.000</p>
+                </div>
+                <div class="menuContainer">
+                    <img src="Assets/CapBadak.jpg" alt="CapBadak">
+                    <p class="menuTitle">Cap Badak</p>
+                    <p class="harga">Rp 20.000</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="row2">
+            <div class="daftarProduk">
+                <div class="menuContainer">
+                    <img src="Assets/TehSusuJaya2.jpg" alt="TehSusuJaya">
+                    <p class="menuTitle">Teh Susu Jaya</p>
+                    <p class="harga">Rp 13.000</p>
+                </div>
+                <div class="menuContainer">
+                    <img src="Assets/MieSopMedan-2.png" alt="TehSusu" id="alternateImg">
+                    <p class="menuTitle">Mie Sop Medan</p>
+                    <p class="harga">Rp 20.000</p>
+                </div>
+                <div class="menuContainer">
+                    <img src="Assets/RotiBakar-2.png" alt="Matcha" id="alternateImg">
+                    <p class="menuTitle">Roti Bakar </p>
+                    <p class="harga">Rp 20.000</p>
+                </div>
+                <div class="menuContainer">
+                    <img src="Assets/CapBadak.jpg" alt="CapBadak">
+                    <p class="menuTitle">Crispy Kaya Toast</p>
+                    <p class="harga">Rp 20.000</p>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    
+    <div class="footer" id="footer">
+            <div class="footerContainer">
+                <div class="column1">
+                    <div class="footerTitle">
+                        <img src="Assets/logo-kedai.png" alt="Logo" class="brandImg">
+                    </div>
+                    <p class="footerDesc">
+                        Hadirkan cita rasa lokal dalam suasana 
+                        </br> bersahabat 
+                    </p>
+                </div>
+                <div class="column2">
+                    <div class="footerTitle">Temukan Kami</div>
+                    <img src="Assets/logo-gofood.png" alt="gofood" href="" class="footerlogo">
+                </div>
+                <div class="column3">
+                    <div class="footerTitle">Hubungi Kami</div>
+                    <div class="wa">
+                        <i class="fab fa-whatsapp"></i>
+                        <p>+62 85723413081</p>
+                    </div>
+                    <div class="ig">
+                        <i class="fab fa-instagram"></i>
+                        <p>@kedaijayabersama</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footerTitleBot">
+                <p>&#169; 2025. Managed by Jonathan Christopher Manihuruk</p>
+            </div>
+        </div>
+
+    <script src="function.js"></script>
+</body>
+</html>
