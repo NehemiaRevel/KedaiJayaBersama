@@ -217,10 +217,6 @@ img.displaySlide {
     margin-top: -3vh;
 }
 
-/* .homeBtn{
-
-} */
-
 .row2{
     padding-inline: -15%;
 }
@@ -428,4 +424,47 @@ button:hover {
 
 .footerTitleBot{
     margin-bottom: 2vh;
+}
+
+/* produk animation */
+
+.menuContainer {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    display: none;
+    max-width: 300px;
+}
+
+.menuContainer:hover {
+    width: 35%;
+    background-color: rgb(243, 207, 139);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    align-items: center;
+    display: flex;
+}
+
+.menuDetail {
+    opacity: 1;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    padding-top: 10px;
+    color: #333;
+}
+
+.menuContainer:hover .menuDetail {
+    opacity: 1;
+    max-height: 100px; 
+}
+
+/* .menuContainer {
+    flex-shrink: 0;
+} */
+
+.daftarProduk {
+    position: relative;
+    z-index: 0;
 }
